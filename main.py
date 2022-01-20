@@ -27,7 +27,7 @@ def boten(message):
     
     mas.add(A,E,M)
     
-    bot.send_message(message.chat.id, f"- أهلاً بكً  !\n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
+    bot.send_message(message.chat.id, f"- أهلاً بكً  !{USER_NAME} \n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
     
     
 @bot.callback_query_handler(func=lambda call: True)
@@ -42,7 +42,7 @@ def masg(call):
 		
 		A = types.InlineKeyboardButton(text ="USER (BFFFL)", callback_data="F1")
 
-		E = types.InlineKeyboardButton(text ="USER (BFFFتقتقننقنقنقنقنبنبنبننبهبهبهبهبهبهبهبهبهقهقههقهفهقهقهفهفهفهفهفهفهقهقهفهفههفهفهفهفههقههقههف٧٧فه٧فههف٧٧ف٧٧ف٧٧ق٧٧ق٧هق٧هقههقههقههقههقعهقعهقهعقعع٣عت٣تت2)", callback_data="F2")
+		E = types.InlineKeyboardButton(text ="USER (PFF22)", callback_data="F2")
 		
 		M = types.InlineKeyboardButton('المطور⚙️', url='https://t.me/W_M_X')
 		
