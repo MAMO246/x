@@ -21,7 +21,7 @@ def boten(message):
     
     A = types.InlineKeyboardButton(text ="✌️ثلاثي", callback_data="F1")
     
-    E = types.InlineKeyboardButton(text ="🤡رباعي", callback_data="F2")
+    E = types.InlineKeyboardButton(text ="رباعي😗", callback_data="F2")
     
     M = types.InlineKeyboardButton('⚙️المطور', url='https://t.me/W_M_X')
     
@@ -104,7 +104,7 @@ def masg(call):
 			un = str(''.join(random.choice(xn)for i in range(1)))
 			ua = str(''.join(random.choice(xa)for i in range(1)))
 			bs = str(''.join(random.choice(xm)for i in range(1))) 
-			username = str(us)+str(un)+str(un)+str(un)+str(bs)
+			username = str(un)+str(un)+str(un)+str(un)+str(bs)
 			url = "https://t.me/"+str(username)
 			headers = {
             "User-Agent": generate_user_agent(),
