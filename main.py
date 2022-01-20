@@ -141,3 +141,14 @@ if __name__ == "__main__":
     bot.remove_webhook()
     bot.set_webhook(url="https://ssssndh.herokuapp.com/"+str(BOT_TOKEN))
     server.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+
+
+
+
+
+
+@Client.on_message(command2("هلو"))
+
+def reply(Client, message: Message):
+
+    message.reply_text("الرد")
