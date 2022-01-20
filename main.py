@@ -85,7 +85,7 @@ def masg(call):
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton('⚙️المطور', url='https://t.me/W_M_X')
 				mas.add(A,E,B,R,M)
-				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
+				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="حسناً جار الفحص الان🙂😂",reply_markup=mas)
 				
 			
 		
@@ -127,7 +127,7 @@ def masg(call):
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton('المطور', url='https://t.me/W_M_X')
 				mas.add(A,E,B,R,M)
-				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
+				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="حسناً جار الفحص الان🙂😂",reply_markup=mas)
 		
 
 @server.route(f"/{BOT_TOKEN}", methods=["POST"])
