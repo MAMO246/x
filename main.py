@@ -95,7 +95,7 @@ def masg(call):
 		xu = "MNBVCXZLKJHGFDSAPOIUYTREWQ0123456789"
 		xn = "MNBVCXZLKJHGFDSAPOIUYTREWQ0123456789"
 		xa = "MNBVCXZLKJHGFDSAPOIUYTREWQ0123456789"
-		xm = "MNBVCXZLKJHGFDSAPOIUYTREWQ0123456789"
+		xm = "0123456789"
 		ok=0
 		cp=0
 		sk=0
@@ -104,7 +104,7 @@ def masg(call):
 			un = str(''.join(random.choice(xn)for i in range(1)))
 			ua = str(''.join(random.choice(xa)for i in range(1)))
 			bs = str(''.join(random.choice(xm)for i in range(1))) 
-			username = str(un)+str(un)+str(un)+str(un)+str(bs)
+			username = str(us)+str(un)+str(un)+str(B)+str(O)+str(T)
 			url = "https://t.me/"+str(username)
 			headers = {
             "User-Agent": generate_user_agent(),
@@ -121,8 +121,8 @@ def masg(call):
 				cp+=1
 				sk+=1
 				mas = types.InlineKeyboardMarkup(row_width=2)
-				A = types.InlineKeyboardButton(f'GOOD : {ok}', callback_data="1x")
-				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
+				A = types.InlineKeyboardButton(f'شغال✅: : {ok}', callback_data="1x")
+				E = types.InlineKeyboardButton(f'مو شغال❌: : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{username}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton('المطور', url='https://t.me/W_M_X')
