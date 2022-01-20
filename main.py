@@ -121,8 +121,8 @@ def masg(call):
 				cp+=1
 				sk+=1
 				mas = types.InlineKeyboardMarkup(row_width=2)
-				A = types.InlineKeyboardButton(f'شغال✅: : {ok}', callback_data="1x")
-				E = types.InlineKeyboardButton(f'مو شغال❌: : {cp}', callback_data="1x")
+				A = types.InlineKeyboardButton(f'شغال✅ : {ok}', callback_data="1x")
+				E = types.InlineKeyboardButton(f'مو شغال❌ : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{username}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton('المطور', url='https://t.me/W_M_X')
