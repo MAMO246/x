@@ -42,13 +42,13 @@ def masg(call):
 		
 		A = types.InlineKeyboardButton(text ="USER (BFFFL)", callback_data="F1")
 
-		E = types.InlineKeyboardButton(text ="USER (BFFF2)", callback_data="F2")
+		E = types.InlineKeyboardButton(text ="USER (BFFFتقتقننقنقنقنقنبنبنبننبهبهبهبهبهبهبهبهبهقهقههقهفهقهقهفهفهفهفهفهفهقهقهفهفههفهفهفهفههقههقههف٧٧فه٧فههف٧٧ف٧٧ف٧٧ق٧٧ق٧هق٧هقههقههقههقههقعهقعهقهعقعع٣عت٣تت2)", callback_data="F2")
 		
 		M = types.InlineKeyboardButton('المطور⚙️', url='https://t.me/W_M_X')
 		
 		M = types.InlineKeyboardButton('⚙️المطور', url='https://t.me/W_M_X')
 		
-		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id, text="- أهلاً بكً عزيزي المستخدم \n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
+		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id, text="- أهلاً بكً عزيزي المستخدم \n\n- بوت صيد يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
 
 	elif call.data =="F1":
 		
