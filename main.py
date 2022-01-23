@@ -140,5 +140,5 @@ def redirect_message():
 
 if name == "main":
     bot.remove_webhook()
-    bot.set_webhook(url="https://ssssndh.herokuapp.com/"+str(BOT_TOKEN))
+    bot.set_webhook(url="https://sssfi.herokuapp.com/"+str(BOT_TOKEN))
     server.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
