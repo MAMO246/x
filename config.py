@@ -1,2 +1,2 @@
-BOT_TOKEN = "5064169293:AAFedRNe2bD3WTE1CcHMWjbFzIcvo5kMf-g"
+BOT_TOKEN = "5111824560:AAHe3_Y3lqovHX9Q5xifqxfHGzXwWig4oGQ"
 APP_URL = "https://ssssndh.herokuapp.com/" + BOT_TOKEN
