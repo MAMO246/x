@@ -101,5 +101,4 @@ def log(message):
         bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text="**Bot Started ✅**",parse_mode='markdown',reply_markup=mees) 
         
 
-#داشوفك تريد تخمط
-bot.polling(True)
+مرحب
