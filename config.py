@@ -1,2 +1,2 @@
 BOT_TOKEN = "5282056971:AAHEgb_HR73H3lhZH378EYUpLh7FBGyUCKg"
-APP_URL = "https://sssfi.herokuapp.com/" + BOT_TOKEN
+APP_URL = "https://mazen0.herokuapp.com/" + BOT_TOKEN
