@@ -19,11 +19,11 @@ def boten(message):
     
     mas = types.InlineKeyboardMarkup(row_width=2)
     
-    A = types.InlineKeyboardButton(text ="USER (BFFFL)", callback_data="F1")
+    A = types.InlineKeyboardButton(text ="ثلاثي🙂♥️", callback_data="F1")
     
-    E = types.InlineKeyboardButton(text ="USER (BFFF2)", callback_data="F2")
+    E = types.InlineKeyboardButton(text ="رباعي😒♥️", callback_data="F2")
     
-    M = types.InlineKeyboardButton('المطور', url='https://t.me/SidraTools')
+    M = types.InlineKeyboardButton('المطور', url='https://t.me/R_S_X')
     
     mas.add(A,E,M)
     
