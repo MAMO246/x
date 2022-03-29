@@ -62,7 +62,7 @@ def masg(call):
 			us = str(''.join(random.choice(xu)for i in range(1)))
 			un = str(''.join(random.choice(xn)for i in range(1)))
 			ua = str(''.join(random.choice(xa)for i in range(1)))
-			username = str(xu)+'_'+str(xn)+'_'+str(xa)
+			username = str(us)+'_'+str(un)+'_'+str(ua)
 			url = "https://t.me/"+str(username)
 			headers = {
             "User-Agent": generate_user_agent(),
