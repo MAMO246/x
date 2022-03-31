@@ -115,7 +115,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"@{username}")
+				bot.send_message(call.message.chat.id,f"`@{username}`")
 				
 			else:
 				cp+=1
@@ -127,7 +127,7 @@ def masg(call):
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton('المطور', url='https://t.me/R_S_X')
 				mas.add(A,E,B,R,M)
-				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
+				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="جار فححص اليوزات⚠️",reply_markup=mas)
 		
 
 @server.route(f"/{BOT_TOKEN}", methods=["POST"])
