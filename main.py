@@ -27,7 +27,7 @@ def boten(message):
     
     mas.add(A,E,M)
     
-    bot.send_message(message.chat.id, f"- أهلاً بكً  !\n\n- بوت يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
+    bot.send_message(message.chat.id, f"- أهلاً بكً  !\n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
     
     
 @bot.callback_query_handler(func=lambda call: True)
