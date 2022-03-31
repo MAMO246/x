@@ -27,7 +27,7 @@ def boten(message):
     
     mas.add(A,E,M)
     
-    bot.send_message(message.chat.id, f"- أهلاً بكً  !\n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
+    bot.send_message(message.chat.id, f"- أهلاً بكً  !\n\n- بوت يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
     
     
 @bot.callback_query_handler(func=lambda call: True)
@@ -104,7 +104,7 @@ def masg(call):
 			un = str(''.join(random.choice(xn)for i in range(1)))
 			ua = str(''.join(random.choice(xa)for i in range(1)))
 			bs = str(''.join(random.choice(xm)for i in range(1))) 
-			username = str(us)+str(un)+str(un)+str(un)
+			username = str(us)+str(un)+str(un)+str(un)+str(un)
 			url = "https://t.me/"+str(username)
 			headers = {
             "User-Agent": generate_user_agent(),
