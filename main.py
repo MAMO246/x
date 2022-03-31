@@ -21,7 +21,7 @@ def boten(message):
     
     A = types.InlineKeyboardButton(text ="ثلاثي🙂♥️", callback_data="F1")
     
-    E = types.InlineKeyboardButton(text ="رباعي😒♥️", callback_data="F2")
+    E = types.InlineKeyboardButton(text ="بوت ثلاثي😒♥️", callback_data="F2")
     
     M = types.InlineKeyboardButton('المطور', url='https://t.me/R_S_X')
     
@@ -42,7 +42,7 @@ def masg(call):
 		
 		A = types.InlineKeyboardButton(text ="ثلاثي🙂♥️", callback_data="F1")
 
-		E = types.InlineKeyboardButton(text ="رباعي😒♥️", callback_data="F2")
+		E = types.InlineKeyboardButton(text ="بوت ثلاثي😒♥️", callback_data="F2")
 		
 		M = types.InlineKeyboardButton('المطور', url='https://t.me/R_S_X')
 		
