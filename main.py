@@ -21,7 +21,7 @@ def boten(message):
     
     A = types.InlineKeyboardButton(text ="ثلاثي🙂♥️", callback_data="F1")
     
-    E = types.InlineKeyboardButton(text ="بوت ثلاثي😒♥️", callback_data="F2")
+    E = types.InlineKeyboardButton(text ="TEST😒♥️", callback_data="F2")
     
     M = types.InlineKeyboardButton('المطور', url='https://t.me/R_S_X')
     
@@ -42,7 +42,7 @@ def masg(call):
 		
 		A = types.InlineKeyboardButton(text ="ثلاثي🙂♥️", callback_data="F1")
 
-		E = types.InlineKeyboardButton(text ="بوت ثلاثي😒♥️", callback_data="F2")
+		E = types.InlineKeyboardButton(text ="TSET😒♥️", callback_data="F2")
 		
 		M = types.InlineKeyboardButton('المطور', url='https://t.me/R_S_X')
 		
@@ -127,7 +127,7 @@ def masg(call):
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton('المطور', url='https://t.me/R_S_X')
 				mas.add(A,E,B,R,M)
-				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="جار فححص اليوزات⚠️",reply_markup=mas)
+				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="جارٍ الفحص.....⚠️",reply_markup=mas)
 		
 
 @server.route(f"/{BOT_TOKEN}", methods=["POST"])
