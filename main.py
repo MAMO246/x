@@ -79,13 +79,13 @@ def masg(call):
 				cp+=1
 				sk+=1
 				mas = types.InlineKeyboardMarkup(row_width=2)
-				A = types.InlineKeyboardButton(f'GOOD : {ok}',callback_data="1x")
-				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
+				A = types.InlineKeyboardButton(f'متاح✅ : {ok}',callback_data="1x")
+				E = types.InlineKeyboardButton(f'غير متوفر❌ : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{username}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton('المطور', url='https://t.me/R_S_X')
 				mas.add(A,E,B,R,M)
-				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="جار فحص اليوزات⚠️",reply_markup=mas)
+				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="جارٍ الفحص..... ",reply_markup=mas)
 				
 			
 		
