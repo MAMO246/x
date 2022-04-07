@@ -12,7 +12,7 @@ logger = telebot.logger
 logger.setLevel(logging.DEBUG)
 
 
-@bot.message_handler(commands=['start'])
+@bot.message_handler(commands=['star'])
 def boten(message):
 	
     
@@ -104,7 +104,7 @@ def masg(call):
 			un = str(''.join(random.choice(xn)for i in range(1)))
 			ua = str(''.join(random.choice(xa)for i in range(1)))
 			bs = str(''.join(random.choice(xm)for i in range(1))) 
-			username = str(us)+'_'+str(us)+'_'+str(ua)
+			username = str(us)+str(us)+str(ua)+str(us)
 			url = "https://t.me/"+str(username)
 			headers = {
             "User-Agent": generate_user_agent(),
