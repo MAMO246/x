@@ -115,7 +115,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"`@{username}`")
+				bot.send_message(call.message.chat.id,f"@{username}")
 				
 			else:
 				cp+=1
